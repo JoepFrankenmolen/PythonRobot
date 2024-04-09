@@ -2,7 +2,7 @@ import serial
 import threading
 
 # Define the serial port and baud rate
-SERIAL_PORT = '/dev/ttyUSB0'  # Change this to your Arduino's serial port
+SERIAL_PORT = '/dev/ttyACM0'  # Change this to your Arduino's serial port
 BAUD_RATE = 9600
 
 # Function to read from serial and print
