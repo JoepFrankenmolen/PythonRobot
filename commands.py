@@ -22,7 +22,7 @@ read_thread.start()
 
 # Continuously send user input to Arduino
 while True:
-    user_input = input("Enter message to send to Arduino: ")
+    user_input = input()
     if user_input.lower() == 'exit':
         break
     ser.write(user_input.encode())
